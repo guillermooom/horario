@@ -7,7 +7,7 @@ body{
 @media(max-width:500px){
 	body{
         /*GM*/
-        font-size: 15px;
+        font-size: 10px;
     }
 }
 h1{
@@ -25,9 +25,9 @@ table{
 }
 @media(max-width:500px){
 	table{
-        margin-left:1%;
-        margin-right:1%;
-        width: 98%;
+        margin-left:0%;
+        margin-right:0%;
+        width: 100%;
     }
 }
 table, tr , th, td {
