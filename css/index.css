@@ -7,7 +7,7 @@ body{
 @media(max-width:500px){
 	body{
         /*GM*/
-        font-size: 15px;
+        font-size: 10px;
     }
 }
 h1{
