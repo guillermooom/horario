@@ -4,14 +4,9 @@ body{
     font-family: Calibri;
     font-size: 20px;
 }
-@media(max-width:500px){
-	body{
-        /*GM*/
-        font-size: 10px;
-    }
-}
 h1{
     font-family: Arial;
+      /*GM*/
     margin-top:50px;
     text-align: center;
     text-decoration: underline rgb(255, 0, 128);
@@ -22,13 +17,6 @@ table{
     width: 95%;
     border-collapse: collapse;
     height: 350px;
-}
-@media(max-width:500px){
-	table{
-        margin-left:0%;
-        margin-right:0%;
-        width: 100%;
-    }
 }
 table, tr , th, td {
     border: 3px solid #000000;
@@ -59,4 +47,14 @@ th{
 }
 .ing{
     background-color: #ff2525;
+}
+@media(max-width:500px){
+    body{
+        font-size: 10px;
+    }
+	table{
+        margin-left:0%;
+        margin-right:0%;
+        width: 100%;
+    }
 }
